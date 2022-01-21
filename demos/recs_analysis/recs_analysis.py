@@ -107,7 +107,7 @@ for i in range(1, 245): # 2009 has 244 brr
     wt_labels09.append(brr_wt + str(i))
 # -
 
-#     Now we can finally load the data into memory, and only select the
+# Now we can finally load the data into memory, and only select the
 # columns desired via Pandas' column subsetting functionality. While we're at
 # it, we will also convert `DOEID` and `REGIONC` into categorical variables; 
 # the rest will remain as the default float-like numeric type.
@@ -137,7 +137,7 @@ data_09["DOEID"] = pd.Categorical(data_09["DOEID"])
 data_15["DOEID"] = pd.Categorical(data_15["DOEID"])
 # -
 
-#     The replicate weights are provided in a somewhat inconvenient format,
+# The replicate weights are provided in a somewhat inconvenient format,
 # with each brr weight having a separate column. We want to convert to a long
 # format to make it easier to vectorize our procedure.
 
@@ -168,7 +168,7 @@ wts_15 = pd.merge(wts_15_long,
 
 # # Construct and Report Estimates
 
-#     We begin by combining the data sets with the replicate weights so that 
+# We begin by combining the data sets with the replicate weights so that 
 # we can calculate the weighted average HDD and CDD and the weighted BRR
 # terms in one pass:
 
@@ -434,7 +434,7 @@ for i, line in enumerate(t_15):
 display(HTML(table_15))
 # -
 
-#     Our next task is to leverage our work from the previous tables to 
+# Our next task is to leverage our work from the previous tables to 
 # estimate the *change* in heating and cooling degree days from 2009 to 2015. 
 # By using the fact that these two measures are independent, we can find the 
 # variance of the difference as the sum of the variance for each corresponding 
