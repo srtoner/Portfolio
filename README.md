@@ -16,4 +16,4 @@ Cheers,
 
 Steve
 
-(https://linkedin.com/stephentoner/)
+[LinkedIn](https://linkedin.com/in/stephentoner/)
