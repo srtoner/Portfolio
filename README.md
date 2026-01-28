@@ -1,6 +1,6 @@
 # Selected Sample of Work
 
-Welcome! I am an aspiring Data Scientist and current Master's Student at the University of Michigan. 
+Welcome! I am a Data Scientist at Extrahop Networks and an alumnus of Master's in Data Science at the University of Michigan. 
 This is a repository to showcase some of my personal projects and coursework dealing with data, 
 machine learning, and statistics.
 
